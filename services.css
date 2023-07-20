@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: darkslateblue;
+    margin: 0;
+    padding: 0;
+    background-color: darkslateblue;
+}
+.nav li{
+    float: left;
+}
+.nav a{
+    text-decoration: none;
+    padding: 25px;
+    padding-left: 300px;
+    display: block;
+    background-color: darkslateblue;
+    color: black;
+    font-size: larger;
+    font-style: italic;
+    
+}
+
+.background{
+    background-color: darkslateblue;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.Div2{
+        background-color: darkslateblue;
+        width: 1500px;
+        height: 400px; 
+        
+}
+.Div2 h1{
+    text-align: center;
+}
+.Div2 p{
+    text-align: center;
+    -ms-text-size-adjust: auto;
+}
+.Div3{
+    background-color: darkslateblue;
+    width: 1500px;
+    height: 400px; 
+    
+}
+.Div3 h1{
+text-align: center;
+}
+.Div3 p{
+text-align: center;
+-ms-text-size-adjust: auto;
+}
+.logo h3{
+    position: absolute;
+    left: 10px;
+    top: 25px;
+    color: black;
+    font-style: italic;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product{
+    width: 300px;
+    border: 1px solid;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    height: 600px;
+}
+.product img{
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+.product h2{
+    color: black;
+    margin-top: 10px;
+}
+.product p{
+    color: black;
+    margin-top: 5px;
+}
+.product li{
+    padding: 20px;
+    font-size: larger;
+}
